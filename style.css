@@ -1,0 +1,102 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+
+}
+.clear{
+    clear: both;
+}
+h1{
+    font-size: 55px;
+    font-weight: bold;
+}
+h2{
+    font-size:40px
+}
+.orange-color{
+    color:orange;
+}
+section{
+    margin:50px 0;
+}
+.logo-area img {
+    float: left;
+    width: 250px;
+    height: 100px;
+}
+
+.menu-area ul {
+    float: right;
+    margin-top: 35px;
+}
+
+.menu-area ul li {
+    display: inline;
+    margin:0 30px;
+}
+.menu-area ul li a{
+    font-size: 20px;
+    padding:10px 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-image:linear-gradient(salmon,deeppink);
+    border-radius: 3px;
+
+}
+.menu-area ul li a:hover{
+    background:white;
+    color:black;
+}
+.top-banner,.dream-area{
+    display: flex;
+}
+.half-div{
+    width:50%;
+    margin-left: 30px;
+}
+.half-div img{
+    width: 100%;
+
+}
+.hire-btn{
+    text-decoration: none;
+    color: white;
+    font-weight:bold;
+    padding: 10px 20px;
+    border-radius: 3px;
+    background-image: linear-gradient(salmon,tomato);
+}
+.dream-area{
+    background-image: url(image/dream-bg.png);
+    background-repeat:no-repeat;
+    background-position:right;
+}
+.sub-experience{
+    display: flex;
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.sub-experience>div{
+    box-shadow: 10px 10px 40px #b3afaf;
+    padding:5%;
+    margin:0 2%;
+    border-left:10px solid;
+}
+.sub-experience>div:nth-child(1){
+    border-image: linear-gradient(salmon, magenta);
+    border-image-slice: 1;
+}
+.sub-experience>div:nth-child(2){
+    border-image:linear-gradient(green,cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size:25px;
+    font-weight: bold;
+}
